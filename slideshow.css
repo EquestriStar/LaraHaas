@@ -1,9 +1,14 @@
 * {box-sizing:border-box}
 
+body {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
 /* Slideshow container */
 .slideshow-container {
-  max-width: 2000px;
-  padding-top: 15px;
+  max-width: 100%;
+  /* padding-top: 15px; */
   position: relative;
   margin: auto;
   height: auto;
@@ -38,17 +43,6 @@
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
-
-/* Caption text */
-/*.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}*/
 
 /* The dots/bullets/indicators */
 .dot {
