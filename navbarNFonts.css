@@ -72,13 +72,16 @@ footer {
     float: left;
     clear: both;
     margin-top: 15px;
-    margin-left: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
-#aboutMe {
-  padding-top: 65px;
+.aboutMe {
+  padding-top: 20px;
   overflow: auto;
   display: block;
+  font-family: 'Slabo 27px', serif;
+  margin-right: 50px;
 }
 
 @media screen and (max-width: 1045px) {
