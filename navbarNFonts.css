@@ -24,13 +24,20 @@
   display: none;
 }
 
-#contact {
+.contact {
   text-align: center;
-  margin-left: 110px;
-  margin-top: 100px;
+  margin-left: 100px;
+  margin-top: 80px;
   float: left;
   display: block;
   font-size: 20px;
+  border-radius: 25px;
+  background-color: #000159;
+  color: white;
+  padding: 50px;
+  border: 10px solid #c0c9d3;
+  font-family: 'Slabo 27px', serif;
+  text-align: center;
 }
 
 #map{
